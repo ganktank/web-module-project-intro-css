@@ -1,0 +1,145 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(#fdf9f6, #FEC89A);
+
+    
+}
+nav {
+    text-align: center;
+}
+.navDiv {
+    padding-bottom: 20px;
+    margin: 0 auto;
+    width: auto;
+    
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    background-color: #FFB5A7;
+    padding: 20px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 14px;
+    transition: transform .3s;
+    overflow: auto;
+    display: inline-block;
+}
+nav a:hover {
+    transform: scale(1.3);
+}
+.divCont {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    
+   
+}
+.curve {
+    width: 30%;
+    padding-left: 0px;
+}
+.curve img {
+    width: 70%;
+    border-radius: 50%;
+    padding-left: 200px;
+    padding-right: 40px;
+    shape-outside: circle();
+
+   
+}
+.divText {
+    padding-left: 200px;
+    line-height: .6em;
+
+}
+.divText p {
+    font-size: 1.2em;
+}
+h1 {
+    font-size: 6.5em;
+    padding: 0px;
+    font-family: "Sofia", sans-serif;
+}
+h2 {
+    font-size: 2.4em;
+}
+.divFour {
+    padding: 20px;
+
+}
+.secOne {
+   
+}
+
+.secTwo {
+    background-color: #FFB5A7;
+    color: white;
+    padding: 20px;
+    font-size: 1.2em;
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.secTwo p {
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 1.3em;
+}
+.SecIcon {
+    margin-left: auto;
+    margin-right: auto;
+    width: 18%;
+    align-content: center;
+    align-items: center;
+
+}
+.SecIcon img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}
+
+.SecIcon  p {
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Hind', sans-serif;
+    
+}
+footer {
+    width: 100%;
+    text-align: center;
+
+   
+   
+}
+.fsimg {
+    height: 300px;
+    max-width: 100%;
+    overflow: hidden;
+}
+.fsNav {
+    padding: 30px;
+    background-color: #FEC89A;
+}
+footer img {
+     width: 100%;
+}
+footer nav a{
+    text-decoration: none;
+    background-color: #F9DCC4;
+    padding: 20px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 14px;
+    transition: transform .3s;
+    overflow: auto;
+    display: inline-block;
+}
